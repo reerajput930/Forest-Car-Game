@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{80351938-A37C-F03F-AD7D-072AA384A0CF}</ProjectGuid>
+    <ProjectGuid>{04566140-20BA-321C-B1D3-A17B3E091F1C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -53,45 +53,45 @@
     <UnityVersion>2020.3.29f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
-    <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
-    <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\#NVJOB Assets\Dynamic Sky (For Demo)\Editor\NVDSkyDemoMaterials.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PostProcessingMonitor.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PostProcessingModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\BloomModelEditor.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\FogModelEditor.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Utils\CurveEditor.cs" />
+    <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\#NVJOB Water Shaders V2\Editor\NVWaterMaterials.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\Environment\#NVJOB Assets\Dynamic Sky (For Demo)\Editor\NVDSkyDemoMaterials.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Utils\FxStyles.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Utils\EditorResources.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Utils\CurveEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\#NVJOB Water Shaders V2\Editor\NVWaterMaterials.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PostProcessingInspector.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\GrainModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
     <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PostProcessingFactory.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\FogModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
-    <Compile Include="Assets\#NVJOB Water Shaders V2\Example Scenes\PostProcessing\Editor\PostProcessingMonitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -724,7 +724,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}</Project>
+      <Project>{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
